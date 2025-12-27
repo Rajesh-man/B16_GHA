@@ -1,9 +1,9 @@
   name: First GHA test 
-on:
-  push
-jobs:
-  b16 first job:
-  runs on: ubuntu latest 
-  steps:
-    name: message
-    run: echo "welcome to the b16 batch"
+  on:
+   push
+   jobs:
+     b16 first job:
+      runs on: ubuntu latest 
+   steps:
+     name: message
+     run: echo "welcome to the b16 batch"
